@@ -17,9 +17,10 @@
       "dest": "/public/index.html"
     },
     {
-      "src": "skelecoin.jpg",
-      "dest": "/public/skelecoin.jpg"
+      "src": "/skelecoin.jpg",
+      "dest": "/public/assets/skelecoin.jpg"
     }
   ]
 }
+
 
