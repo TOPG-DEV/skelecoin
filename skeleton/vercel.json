@@ -3,27 +3,26 @@
   "public": true,
   "builds": [
     {
-      "src": "index.html",
+      "src": "public/index.html",
       "use": "@vercel/static"
     },
     {
-      "src": "assets/skelecoin.jpg",
+      "src": "public/assets/skelecoin.jpg",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "index.html"
+      "dest": "/public/index.html"
     },
     {
       "src": "/assets/skelecoin.jpg",
-      "dest": "assets/skelecoin.jpg"
+      "dest": "/public/assets/skelecoin.jpg"
     },
     {
       "src": "/(.*)",
-      "dest": "index.html"
+      "dest": "/public/index.html"
     }
   ]
 }
-
